@@ -16,3 +16,11 @@ with open("file2.txt") as file:
 result = [num for num in first_file if num in second_file]
 
 print(result)
+
+import random
+
+names = ["Salvo", "Federico", "Enrico", "Giovanni"]
+
+students_scores = {student:random.randint(60,100) for student in names}
+
+print(students_scores)
